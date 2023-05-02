@@ -1,0 +1,15 @@
+app:
+  name: poi-gateway-app
+  namespace: user9
+  cluster: .cluster-rbrc5.rbrc5.sandbox1759.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-rbrc5/user9-gateway
+  org: janus-rbrc5
+  name: user9-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: user9/poi-gateway-app
+  tag: latest
